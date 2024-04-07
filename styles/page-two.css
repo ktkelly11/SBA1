@@ -1,0 +1,9 @@
+.top-navigation-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-top-nav-bar {
+  display: flex;
+  justify-content: space-between;
+}

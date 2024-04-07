@@ -1,7 +1,5 @@
-.barlow-thin {
-  font-family: "Barlow", sans-serif;
-  font-weight: 100;
-  font-style: normal;
+.navigation-bars {
+  position: relative;
 }
 
 .top-navigation-bar {
@@ -12,4 +10,14 @@
 .second-top-nav-bar {
   display: flex;
   justify-content: space-between;
+}
+
+img {
+  padding-top: 20px;
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  border: none;
 }
