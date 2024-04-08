@@ -49,5 +49,40 @@ img {
 }
 
 .dear-wanderer {
-  padding: 0px 50px 0px 50px;
+  padding: 0px 120px 20px 120px;
+}
+
+.contact-form {
+  text-align: center;
+}
+
+.name,
+.phone,
+.email {
+  margin: 10px;
+  padding: 4px 40px;
+  text-align: center;
+}
+
+.checkboxes {
+  border: none;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+.left-checkboxes,
+.right-checkboxes {
+  text-align: left;
+  margin-right: 30px;
+}
+
+.radio {
+  border: none;
+}
+
+#radio,
+#radio2 {
+  margin-right: 30px;
 }

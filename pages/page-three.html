@@ -111,7 +111,80 @@
         </p>
       </div>
       <hr />
-      <div class="contact-form"></div>
+      <div class="contact-form">
+        <form action="#">
+          <input type="text" class="name" placeholder="Name" required />*
+          <br />
+          <input type="tel" class="phone" placeholder="Telephone" />
+          <br />
+          <input type="email" class="email" placeholder="Email" required />*
+          <br />
+          <fieldset class="checkboxes">
+            <legend>What are you interested in?</legend>
+            <div class="left-checkboxes">
+              <label for="checkbox"
+                >Our Quiz
+                <input type="checkbox" name="checkbox" id="checkbox" />
+              </label>
+              <br />
+              <label for="checkbox"
+                >Cruises
+                <input type="checkbox" name="checkbox2" id="checkbox2" />
+              </label>
+              <br />
+              <label for="checkbox"
+                >Mountains/Hiking
+                <input type="checkbox" name="checkbox3" id="checkbox3" />
+              </label>
+              <br />
+              <label for="checkbox"
+                >Museums
+                <input type="checkbox" name="checkbox4" id="checkbox4" />
+              </label>
+              <br />
+            </div>
+            <div class="right-checkboxes">
+              <label for="checkbox"
+                >Urban Walks
+                <input type="checkbox" name="checkbox5" id="checkbox5" />
+              </label>
+              <br />
+              <label for="checkbox"
+                >Theaters
+                <input type="checkbox" name="checkbox6" id="checkbox6" />
+              </label>
+              <br />
+              <label for="checkbox"
+                >Markets
+                <input type="checkbox" name="checkbox7" id="checkbox7" />
+              </label>
+              <br />
+              <label for="checkbox"
+                >Something Else
+                <input type="checkbox" name="checkbox8" id="checkbox8" />
+              </label>
+            </div>
+          </fieldset>
+          <fieldset class="radio">
+            <legend>How would you prefer we contact you?</legend>
+            <label for="radio">
+              Email <input type="radio" name="radio" id="radio" />
+            </label>
+            <label for="radio">
+              Phone <input type="radio" name="radio2" id="radio2" />
+            </label>
+          </fieldset>
+          <br />
+          <textarea
+            rows="5"
+            cols="50"
+            placeholder="Comments *"
+            required
+          ></textarea>
+          <br />
+          <input type="submit" />
+        </form>
+      </div>
     </div>
   </body>
 </html>
