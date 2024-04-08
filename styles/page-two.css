@@ -61,15 +61,24 @@ td {
 
 .top-3 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-top: 30px;
 }
 
 .adventure > img {
-  height: 200px;
+  height: 300px;
   margin-top: 20px;
+  padding-top: 20px;
 }
 
-.adventure > img {
-  height: 200px;
+.beach > img {
+  height: 300px;
   margin-top: 20px;
+  padding-top: 20px;
+}
+
+.family > img {
+  height: 300px;
+  margin-top: 20px;
+  padding-top: 20px;
 }
