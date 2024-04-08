@@ -4,13 +4,13 @@
   width: 100%;
   background-color: white;
   box-shadow: 5px 5px 20px 1px #a5bcc9;
+  margin: 0px;
 }
 
 .top-navigation-bar {
-  padding-top: 10px;
   display: flex;
   justify-content: space-between;
-  margin-right: 20px;
+  margin: 0;
 }
 
 hr {
@@ -25,18 +25,18 @@ hr {
 
 button {
   border: none;
+  text-align: center;
+  white-space: nowrap;
 }
 
 img {
   max-width: 100%;
   display: block;
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 div > h1 {
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 p {
