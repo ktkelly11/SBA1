@@ -1,9 +1,60 @@
+.navigation-bars {
+  position: fixed;
+  top: 0;
+  width: 99%;
+  background-color: white;
+}
+
 .top-navigation-bar {
+  padding-top: 10px;
   display: flex;
   justify-content: space-between;
+}
+
+hr {
+  border-color: #e2eff6;
 }
 
 .second-top-nav-bar {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+button {
+  border: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  padding-top: 150px;
+}
+
+div > h1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+table,
+th,
+td {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 2px 10px;
+  text-align: center;
+}
+th,
+td {
+  background-color: #a5bcc9;
 }
