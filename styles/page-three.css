@@ -1,9 +1,28 @@
+.navigation-bars {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 5px 5px 20px 1px #a5bcc9;
+}
+
 .top-navigation-bar {
+  padding-top: 10px;
   display: flex;
   justify-content: space-between;
+  margin-right: 20px;
+}
+
+hr {
+  border-color: #e2eff6;
 }
 
 .second-top-nav-bar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+button {
+  border: none;
 }

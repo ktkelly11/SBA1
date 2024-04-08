@@ -7,9 +7,10 @@
 }
 
 .top-navigation-bar {
-  padding-top: 20px;
+  padding-top: 10px;
   display: flex;
   justify-content: space-between;
+  margin-right: 20px;
 }
 
 hr {
