@@ -58,3 +58,18 @@ th,
 td {
   background-color: #a5bcc9;
 }
+
+.top-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.adventure > img {
+  height: 200px;
+  margin-top: 20px;
+}
+
+.adventure > img {
+  height: 200px;
+  margin-top: 20px;
+}
