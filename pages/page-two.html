@@ -3,35 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page Two</title>
-    <link rel="stylesheet" href="../styles/page-two.css" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="../styles/index.css" />
   </head>
   <body>
     <div class="main-container">
-      <div class="top-navigation-bar">
-        <h1><a href="../pages/index.html">WanderUS</a></h1>
-        <form action="#">
-          <label for="languages"></label>
-          <select name="languages" id="language-options" placeholder="English">
-            <option value="English">English</option>
-            <option value="Spanish">Español</option>
-            <option value="French">Français</option>
-            <option value="German">Deutsch</option>
-            <option value="Italian">Italiano</option>
-            <option value="Portuguese">Portuguese</option>
-          </select>
-        </form>
-      </div>
-      <div class="second-top-nav-bar">
-        <a href="#">Take Our Quiz</a>
-        <a href="#">Things to do</a>
-        <a href="#">Where to go</a>
-        <a href="../pages/page-three.html">Contact Us</a>
-        <div class="search-bar">
-          <input type="search" />
-          <input type="submit" />
+      <div class="navigation-bars">
+        <div class="top-navigation-bar">
+          <h1>
+            <a
+              style="color: #a5bcc9; font-size: 30px; text-decoration: none"
+              href="../pages/index.html"
+              >WanderUS
+            </a>
+          </h1>
+          <form action="#">
+            <label for="languages"></label>
+            <select
+              name="languages"
+              id="language-options"
+              placeholder="English"
+            >
+              <option value="English">English</option>
+              <option value="Spanish">Español</option>
+              <option value="French">Français</option>
+              <option value="German">Deutsch</option>
+              <option value="Italian">Italiano</option>
+              <option value="Portuguese">Portuguese</option>
+            </select>
+          </form>
+        </div>
+        <hr />
+        <div class="second-top-nav-bar">
+          <button>
+            <a
+              style="
+                color: black;
+                text-decoration: none;
+                padding: 40px;
+                flex-wrap: nowrap;
+              "
+              href="#"
+              >Take Our Quiz</a
+            >
+          </button>
+          <button>
+            <a
+              style="
+                color: black;
+                text-decoration: none;
+                padding: 40px;
+                flex-wrap: nowrap;
+              "
+              href="../pages/page-two.html"
+              >Things to do</a
+            >
+          </button>
+          <button>
+            <a
+              style="color: black; text-decoration: none; padding: 50px"
+              href="#"
+              >Where to go</a
+            >
+          </button>
+          <button>
+            <a
+              style="color: black; text-decoration: none; padding: 50px"
+              href="../pages/page-three.html"
+              >Contact Us</a
+            >
+          </button>
+          <div class="search-bar">
+            <input type="search" placeholder="Search" />
+            <input type="submit" />
+          </div>
         </div>
       </div>
+      <div class="table"></div>
     </div>
   </body>
 </html>
